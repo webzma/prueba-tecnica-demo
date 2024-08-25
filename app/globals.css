@@ -12,3 +12,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+button {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  height: 16px;
+  width: 16px;
+  color: black;
+  accent-color: black;
+}
+
