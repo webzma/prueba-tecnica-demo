@@ -8,7 +8,7 @@ export default function PayMethod() {
       <div className="p-4 border [box-shadow:0px_0px_3px_0px_#00A9E0] border-[#00A9E0] rounded-lg flex flex-col gap-y-4">
         <div className="flex items-center justify-between">
           <div className="flex gap-x-2">
-            <input type="radio" name="" id="" />
+            <input type="radio" name="payMethod" id="" />
             <label htmlFor="" className="font-medium">
               Tarjeta Bancaria
             </label>
@@ -21,13 +21,13 @@ export default function PayMethod() {
 
         <div className="pl-4 flex flex-col gap-y-2">
           <div className="flex gap-x-2">
-            <input type="radio" name="payMethod" id="" />
+            <input type="radio" name="card" id="" />
             <label htmlFor="" className="font-medium">
               Tarjeta terminada en 0909
             </label>
           </div>
           <div className="flex gap-x-2">
-            <input type="radio" name="payMethod" id="" />
+            <input type="radio" name="card" id="" />
             <label htmlFor="" className="font-medium">
               Utilizar otra tarjeta
             </label>
