@@ -67,7 +67,7 @@ export default function Resume({
         </button>
       </div>
 
-      <div className="bg-[url('../public/Background.png')] bg-cover bg-no-repeat p-12 mt-8 w-full">
+      <div className="bg-[url('../public/Background.png')] bg-cover bg-no-repeat p-8 mt-8 w-full">
         <div className="bg-[#003A8A] flex flex-col gap-y-4 p-8 rounded-md max-w-[600px] mx-auto">
           <div className="flex items-center justify-between flex-col lg:flex-row gap-y-4 ">
             <div className="flex items-center gap-x-2">
